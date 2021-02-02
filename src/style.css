@@ -1,0 +1,31 @@
+.custominput {
+  margin-top: 5px;
+  border: 0;
+  padding: 12px;
+  font-size: 20px;
+  background: transparent;
+  border-bottom: 2px solid #E0235C;
+  transition: border .5s ease-in-out;
+}
+
+.custominput:focus {
+  outline: 0;
+  border-bottom-color: royalblue;
+}
+
+.nome1 {
+  color: black;
+}
+
+.nome2 {
+  color: blue;
+}
+
+.nome3 {
+  color: green;
+}
+
+.nome1.nome2 {
+  color: red;
+  font-size: 18pt;
+}
